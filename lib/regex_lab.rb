@@ -6,6 +6,8 @@ def starts_with_a_vowel?(word_array)
    if word.scan(/[aeiou]/)
    vowel_words << word
   binding.pry
+    end
+  end
   vowel_words
 end
 
