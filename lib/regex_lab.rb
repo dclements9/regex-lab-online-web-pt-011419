@@ -7,9 +7,10 @@ def starts_with_a_vowel?(word_array)
    vowel_words << true
  else
    vowel_words << false
-  binding.pry
+
     end
   end
+  binding.pry
   vowel_words
 end
 
