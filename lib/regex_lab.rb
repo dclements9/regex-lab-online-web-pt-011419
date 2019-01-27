@@ -4,7 +4,9 @@ def starts_with_a_vowel?(word_array)
   vowel_words = []
   word_array.each do |word|
    if word.scan(/[aeiou]/)
-   vowel_words << word
+   vowel_words << true
+ else
+   vowel_words << false
   binding.pry
     end
   end
